@@ -1,3 +1,5 @@
+.gitignore
+.idea/
 out/
 src/algorithmtest/
 src/ShopeeChallenge2020/
