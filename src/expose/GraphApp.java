@@ -45,7 +45,7 @@ public class GraphApp {
         System.out.println(graphDi.toString());
 
         System.out.println("Short path from 1 to : ");
-        int[] weights = new DijsktraAlgorithm(graphDi).finding(graphDi.indexOf("1"));
+        Integer[] weights = new DijsktraAlgorithm(graphDi).getShortPath(graphDi.indexOf("1"));
         for (int i = 0; i < totalVertex; i++) {
             System.out.println("\t" + vertices[i] + " : " + weights[i]);
         }
